@@ -1,0 +1,219 @@
+/*CSS*/
+
+
+.header_container
+{
+    background-color: black;
+    width: 1530px;
+    position: static;
+}
+
+/*Input*/
+.giphy_search
+{
+    line-height: 30px;
+    width: 230px;
+    margin-left: 10px;
+    margin-top: 50px;
+}
+
+/*Header*/
+.giphy_header
+{
+    font-style: italic;
+    color: white;
+    font-family: monospace;
+    font-weight: bold;
+    margin-left: 50px;
+    margin-right: 200px;
+    margin-top: 30px;
+}
+
+
+
+
+/*Search, About & Contact Buttons*/
+#giphy_btn-search,
+#giphy_btn-about,
+#giphy_btn-contact,
+#giphy_btn-faq
+{
+	box-shadow: inset 0px 1px 0px 0px #6157ff;
+	background: linear-gradient(to bottom, #6157ff 5%, #6157ff 100%);
+	background-color:#6157ff;
+	border-radius: 3px;
+	border: 1px solid #6157ff;
+	display: inline-block;
+	cursor: pointer;
+	color:#ffffff;
+	font-family: monospace;
+	font-size: 16px;
+    font-weight: bold;
+	padding: 6px 18px;
+	text-decoration: none;
+	text-shadow: 0px 1px 0px #6157ff;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+#giphy_btn-search:hover,
+#giphy_btn-about:hover,
+#giphy_btn-contact:hover,
+#giphy_btn-faq:hover
+{
+	background:linear-gradient(to bottom, #6157ff 5%, #6157ff 100%);
+	background-color:#6157ff;
+}
+
+#giphy_btn-search:active,
+#giphy_btn-about:active,
+#giphy_btn-contact:active,
+#giphy_btn-faq:active
+{
+	position:relative;
+	top:1px;
+}
+
+
+
+.giphy_about_us_page,
+.giphy_contact_us_page
+{
+    text-align: center;
+}
+
+
+
+.giphy_slogan,
+.giphy_about_us_paragraph
+{
+    font-family: interface, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+
+/*Body background for all Image Results*/
+#imageResults
+{
+    background-color: white;
+}
+#giphy_count
+{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    margin-left: 550px;
+    width: fit-content;
+    height: fit-content;
+}
+
+
+/*Contacts*/
+.giphy_contacts_info_container
+{
+    background-color: aliceblue;
+}
+.giphy_contacts_info
+{
+    margin-left: 550px;
+    margin-right: 100px;
+
+}
+#giphy_contacts_textbox
+{
+    width: 400px;
+}
+
+
+
+
+/*CSS for FAQ Page*/
+.gif_logo
+{
+    align-content: center;
+    margin-left: 600px;
+    height: 300px;
+    width: 300px;
+}
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+
+.faq-container
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.hr-line
+{
+    width: 60%;
+    margin: auto;
+}
+
+
+/*CSS for buttons used to open and close the faq-page body */
+.faq-page 
+{
+    color: #444;
+    cursor: pointer;
+    padding: 30px 20px;
+    width: 60%;
+    border: 1px;
+    outline: none;
+    transition: 0.4s;
+    margin: auto;
+}
+
+.faq-body
+{
+    margin: auto;
+    width: 50%; 
+    padding: auto;
+   
+}
+
+.active,
+.faq-page:hover 
+{
+    background-color: #F9F9F9;
+}
+
+
+/* Style the faq-page panel. Note: hidden by default */
+.faq-body 
+{
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+}
+
+.faq-page:after 
+{
+    content: '\02795';
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after 
+{
+    content: "\2796";
+}
+
+
+
+
+
+.rating_system
+{
+    background-color: white;
+}

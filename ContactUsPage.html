@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <!--About Page-->
+    <head>
+        <title>Contact Us</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+        <link rel="stylesheet" href="GIPHY_Project.css">
+    </head>
+    <body>
+        <main>
+            <div class="header_container">
+                <table>
+                    <tr>
+                        <th>
+                            <input type="image" class="giphy_header"  id="giphy_image" src="https://developers.giphy.com/static/img/dev-logo-lg.gif" onclick="MainFunction()">
+                        </th>
+
+                        <th>
+                            <div class="row">
+                                <div class="col d-flex justify-content-center">
+                                    <div class="form-row align-items-center">
+                                        <div class="col-auto">
+                                            <button type="button" id="giphy_btn-about" class="btn btn-primary" onclick="AboutUsFunction()">About</button>
+                                            <button type="button" id="giphy_btn-contact" class="btn btn-primary">Contacts</button>
+                                            <button type="button" id="giphy_btn-faq" class="btn btn-primary" onclick="FAQFunction()">FAQ</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </th>
+                    </tr>
+                </table>
+
+                <div class="row my-5">
+                    
+                </div>
+            </div>
+        </main>
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+            crossorigin="anonymous"></script>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="GIPHY_Project.js"></script>
+
+        <h1 class="giphy_contact_us_page">Contact Us</h1>
+        <br>
+        <p class="giphy_slogan">Your Input would be appeciated!!</p>
+        <br><br>
+        <div class="giphy_contacts_info_container">
+            <table class="giphy_contacts_info">
+                <tr>
+                  <th><br>&nbsp;&nbsp;&nbsp;Name</th><br>
+                </tr>
+      
+                <tr>
+                    <td>
+                      <div class="container">
+                        <input type="text" id="giphy_contacts_textbox" required placeholder="Full Name" name="name">
+                      </div>
+                    </td>
+                </tr>
+            
+
+                <tr>
+                    <th><br>&nbsp;&nbsp;&nbsp;Email address</th>
+                </tr>
+        
+                <tr>
+                    <td>
+                      <div class="container">
+                        <input type="email" id="giphy_contacts_textbox" name="current_email" placeholder="johndoe@busyqa.com"><br>
+                      </div>
+                    </td>
+                </tr>
+
+
+                <tr>
+                  <th><br>&nbsp;&nbsp;&nbsp;Mobile phone</th>
+                </tr>
+      
+
+                <tr>
+                  <td>
+                    <div class="container"> <!--Part of an imported package from the script for the phone number-->
+                      <input type="tel" id="giphy_contacts_textbox" placeholder="999-999-9999" id="phone" name="phone"/>
+                      <br><br><br>
+                    </div>
+                  </td>
+                </tr>
+
+            </table>
+        </div>
+    </body>
+<html>
+
